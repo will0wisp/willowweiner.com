@@ -1,0 +1,396 @@
+@import url('https://fonts.googleapis.com/css?family=Inconsolata&display=swap');
+
+:root{
+	/* color pallate */
+	--black: #01020C;
+	--coral: #A93F55;
+	--moonstone-blue: #5EB1BF;
+	--electric-blue: #7DF9FF;
+	--white: #CDEDF6;
+
+	--plum: #8B165F;
+
+	font-family: 'Inconsolata', monospace;
+
+	--header-z: 999;
+	--navigation-z: 2;
+	--break-z: 1;
+	--header-height: 80px;
+
+}
+body, html {
+	width: 100%;
+}
+
+*, *::before, *::after {
+	box-sizing: border-box;
+}
+
+body{
+	position: relative;
+	top: calc(5 * var(--header-height) / 4);
+	height: calc(100vh - var(--header-height));
+
+	margin: 0;
+	border-spacing: border-box;
+
+	background: black;
+	color: var(--electric-blue);
+	font-weight: 400;
+
+	display: flex;
+	flex-direction: column;
+}
+
+.content{
+	flex: 1 0 auto;
+	padding: 0;
+	margin: 0;
+}
+
+/* --------------------------------------------------------------------------------------------- */
+/* footer styles */
+/* --------------------------------------------------------------------------------------------- */
+footer{
+	z-index: calc(var(--header-z)-1);
+	flex-shrink: 0;
+	padding: 0;
+	text-align: center;
+	width: 100%;
+}
+
+footer ul{
+	padding: 0;
+	margin: 0;
+}
+
+footer ul li{
+	font-size: 1rem;
+}
+
+
+h2{
+	font-size: minmax(2.75vw, 18pt);
+
+}
+
+
+em{
+	color: var(--plum);
+	font-style: normal;
+}
+
+a{
+	color: var(--plum);
+	style
+}
+
+
+
+.break{
+	position: relative;
+	display: block;
+	margin: 0;
+	width: 100%;
+	height: calc(var(--header-height)/4);
+	z-index: var(--break-z);
+}
+
+.black{
+	background: var(--black);
+}
+.white{
+	background: var(--white);
+}
+.moonstone{
+	background: var(--moonstone-blue);
+}
+.coral{
+	background: var(--coral);
+}
+.electric{
+	background: var(--electric-blue);
+}
+.plum{
+	background: var(--plum);
+}
+
+
+.blacktext{
+	color: var(--black);
+}
+.whitetext{
+	color: var(--white);
+}
+.moonstonetext{
+	color: var(--moonstone-blue);
+}
+.coraltext{
+	color: var(--coral);
+}
+.electrictext{
+	color: var(--electric-blue);
+}
+.plumtext{
+	color: var(--plum);
+}
+
+
+.transparent-black{
+	background: rgba(1, 2, 12, .3);
+}
+
+/* --------------------------------------------------------------------------------------------- */
+/* navigation bar styles start here */
+/* --------------------------------------------------------------------------------------------- */
+
+
+
+/* ---------------------------------------------------------- */
+/* header + nav bar */
+/* ---------------------------------------------------------- */
+
+header {
+	background: var(--electric-blue);
+	color: var(--black);
+	text-align: center;
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	z-index: var(--header-z);
+	height: var(--header-height);
+}
+
+.logo{
+	color: var(--black);
+}
+
+nav{
+	position: absolute;
+	text-align: left;
+	top: calc(var(--header-height) - 4px);
+	left: 0;
+	width: 100%;
+	transform: scale(1,0);
+	transform-origin: top;
+	transition: transform 400ms ease-in-out;
+	margin: 0;
+
+	background-color: var(--plum);
+	z-index: var(--navigation-z);
+}
+
+
+nav ul{
+	margin: 0.5em;
+	padding: 0;
+	list-style: none;
+}
+
+nav li{
+	margin-bottom: 1em;
+	margin-left: 1em;
+}
+
+nav a{
+	color:var(--black);
+	text-decoration: none;
+	font-size: 1.2rem;
+	opacity: 0;
+	transition: opacity 175ms ease-in-out;
+}
+
+nav a:hover{
+	color: var(--electric-blue);
+}
+
+/* when hamburger open */
+nav.active {
+	transform: scale(1,1);
+}
+
+nav.active a {
+	opacity: 1;
+	transition: opacity 250ms ease-in-out 250ms;
+}
+
+/*
+nav.active ~ .break {
+	transition:  color 250ms;
+	color: transparent;
+}
+*/
+
+/* hamburger stuff below */
+
+#hamburger{
+	position: absolute;
+	top: 0;
+	left: 0;
+	margin: 0;
+	padding: 0;
+	height: var(--header-height);
+	width: var(--header-height);
+}
+
+.hamburger-toggle{
+	position: relative;
+	width: var(--header-height);
+	height: var(--header-height);
+	cursor: pointer;
+	transition: 0.5s;
+}
+.hamburger-toggle span{
+	width: 50%;
+	height: calc( var(--header-height) / 20);
+	position: absolute;
+	transition: 0.5s;
+	background: var(--black);
+	transform: translateX(-50%);
+}
+.hamburger-toggle span:nth-child(1) {
+	top:30%;
+	left:50%;
+}
+.hamburger-toggle span:nth-child(2) {
+	bottom:30%;
+	left:50%;
+	
+}
+.hamburger-toggle:before {
+	content: "";
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	width: 50%;
+	height: calc(var(--header-height) / 20);
+	background: var(--black);
+	transition: 0.5s;
+}
+
+/* begin hamburger animation */
+.hamburger-toggle.active span:nth-child(1) {
+	/* the 2.5% difference from 50 accounts for half of the 4 pixel height over a 80 pixel background */
+	top:47.5%;
+	left:50%;
+	width: 60%;
+}
+.hamburger-toggle.active span:nth-child(2) {
+	/* the 2.5% difference from 50 accounts for half of the 4 pixel height over a 80 pixel background */
+	bottom:47.5%;
+	left:50%;
+	width: 60%;
+}
+
+.hamburger-toggle.active span:nth-child(1) {
+	transform: translate(-50%,-50%) rotate(135deg);
+}
+.hamburger-toggle.active span:nth-child(2) {
+	transform: translate(-50%,-50%) rotate(-135deg);
+}
+
+.hamburger-toggle.active span {
+	background: var(--plum);
+}
+
+.hamburger-toggle.active:before {
+	width: 100%;
+	height: 100%;
+}
+
+
+.social-media{
+	border-style: none none dashed;
+}
+.social-media ul{
+	list-style: none;
+	display: flex;
+	margin-top: 0;
+
+}
+.social-media ul li{
+	margin-left: 3em;
+	flex: 1 0 auto;
+}
+
+.social-media ul li a{
+	color: var(--moonstone-blue);
+}
+
+.social-media ul li a:hover{
+	color: var(--white);
+}
+
+/* ---------------------------------------------------------- */
+/* for big screens! */
+/* ---------------------------------------------------------- */
+
+
+@media screen and (min-width: 900px) {
+	.hamburger-toggle{
+		display: none;
+	}
+
+	header {
+		display:grid;
+		grid-template-columns: 1fr auto minmax(600px, 3fr) 1fr;
+		height: var(--header-height);
+	}
+
+	.break{
+		grid-column: 1/5;
+	}
+
+	.logo {
+		grid-column: 2/3;
+	}
+
+	nav {
+		all:unset;
+		grid-column: 3/4;
+		display: flex;
+		justify-content: flex-end;
+		align-items: center;
+	}
+
+	nav a {
+		opacity: 1;
+		position: relative;
+	}
+
+	nav ul {
+		display: flex;
+	}
+
+	nav li {
+		margin-left: 3em;
+		margin-bottom: 0;
+	}
+
+	nav a:hover{
+		color: var(--moonstone-blue);
+	}
+
+	nav a::before{
+		content: '';
+		display: block;
+		height: 5px;
+		background: var(--black);
+		position: absolute;
+		top: -.75em;
+		left: 0;
+		right: 0;
+		transform: scale(0,1);
+		transition: transform ease-in-out 250ms;
+	}
+
+	nav a:hover::before {
+		transform: scale(1,1);
+	}
+}
+
+
+
+
