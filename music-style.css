@@ -1,0 +1,17 @@
+#album:hover{
+
+}
+
+
+.soundcloud{
+	height: 14vw;
+	min-height: 150px;
+}
+
+
+
+@media screen and (max-width: 1400) {
+	.soundcloud{
+		height: 1px;
+	}
+}

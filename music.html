@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en-US">
+		<head>
+	    <meta charset="utf-8">
+	    <title>w i l l o w i s p</title>
+	    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	    <link rel="stylesheet" type="text/css" href="style.css">
+	    <link rel="stylesheet" type="text/css" href="music-style.css">
+	    <link rel="stylesheet" type="text/css" href="grid.css">
+	</head>
+<header>
+
+
+		<h1 class="logo">willowisp</h1>
+		
+		<nav id="navigation">
+			<ul>
+				<li><a href="index.html">Home<a></li>
+				<li><a href="index.html">Biography<a></li>
+				<li><a href="projects.html">Projects</a></li>
+				<li><a href="music.html">Music</a></li>
+				<li><a href="contact.html">Contact</a></li>
+
+			</ul>
+		</nav>
+
+		<div id="hamburger" onclick="hamburger_toggle()">
+			<div class="hamburger-toggle" id="hamburger-toggle" >
+				<span></span>
+				<span></span>
+			</div>
+			<script type="text/javascript">
+				function hamburger_toggle(){
+					var element = document.getElementById("hamburger-toggle");
+					element.classList.toggle("active");
+					var nav = document.getElementById("navigation");
+					nav.classList.toggle("active");
+				}
+			</script>
+		</div>
+
+		<div class="break black social-media">  
+			<ul>
+				<li><a href="https://thewillowisp.bandcamp.com">Bandcamp</a></li>
+				<li><a href="https://soundcloud.com/willows_wisp">SoundCloud</a></li>
+				<li><a href="https://www.facebook.com/willow.weiner.music">Facebook</a></li>
+				<li><a href="https://www.youtube.com/channel/UCjAAyzt8irPBNX-Ttcol_jg">YouTube</a></li>
+			</ul>
+		</div>
+	</header>
+
+
+
+
+	<body> 
+		<dir class="content">
+			<dir class="container">
+				<dir class="container item-1-2 pic-hover-container">
+					<img id="album" class="item-1-1 pic" alt="picture of willow's torso and lower-face with pink hair, lips, lighting, and floral design on an oversized white cardigan. "  src="pictures/album.jpg">
+					<dir class="pic-hover-text transparent-black electrictext">
+						I am finishing up an album, and expect to release sometime between Fall 2019 and Spring 2020. 
+						This will probably be the cover, and it'll probably be called willowisp, but who knows? Not me.
+					</dir>
+				</dir>
+						
+				<dir class="list-item item-1-2 plum">
+
+					<h2 class="item-1-1 black"> single : mo(u)rning song - 2019 </h2>
+
+					<iframe class="item-1-1 black soundcloud" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/628633671%3Fsecret_token%3Ds-gSB38&color=%237df9ff&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true">
+					</iframe>
+				
+				
+					<dir class="item-1-1 black" style="font-size: 1.75vw;">
+						<p><strong>m(o)urning song</strong> was written as a final project for a <em>Neuroscience of the Arts</em> class I took at Oberlin.
+						<p>Among other things, it's about change, grief, and the complicated relationships we maintain with our alarm clocks.</p>
+						<p><a href="blog/mourning-song.html">read more here?</a></p>
+					</dir>
+						
+				</dir>
+
+			</dir>
+		</dir>
+
+		<footer>
+			<ul style="list-style: none; text-align: center;">
+				<li class="black blacktext"> hehe! you found me!</li>
+				<li class="plum"> Willow Weiner (she/her or they/them)</li>
+				<li class="coral blacktext">765.490.9939</li>
+				<li class="moonstone coraltext">willow@willowweiner.com</li>
+				<!--<li class="electric moonstonetext"><br></li>-->
+				<li class="white blacktext">&copy 2019</li>
+			</ul>
+		</footer>
+			
+	</body>
+
+
+</html>
