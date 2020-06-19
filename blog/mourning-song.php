@@ -8,39 +8,8 @@
 	    <link rel="stylesheet" type="text/css" href="../grid.css">
 	</head>
 
-	<header>
-
-
-		<h1 class="logo">willowisp</h1>
-		
-		<nav id="navigation">
-			<ul>
-				<li><a href="../index.html">Home</a></li>
-				<li><a href="../bio.html">Biography</a></li>
-				<li><a href="../projects.html">Projects</a></li>
-				<li><a href="../music.html">Music</a></li>
-				<li><a href="../contact.html">Contact</a></li>
-
-			</ul>
-		</nav>
-
-		<div id="hamburger" onclick="hamburger_toggle()">
-			<div class="hamburger-toggle" id="hamburger-toggle" >
-				<span></span>
-				<span></span>
-			</div>
-			<script type="text/javascript">
-				function hamburger_toggle(){
-					var element = document.getElementById("hamburger-toggle");
-					element.classList.toggle("active");
-					var nav = document.getElementById("navigation");
-					nav.classList.toggle("active");
-				}
-			</script>
-		</div>
-
-		<div class="break black " style="border-style: none none dashed;"> <span class="logo" style="color:blue">social media</span>  </div>
-	</header>
+	
+	<?php include('../header.php'); ?>
 
 <h1>NOT YET FORMATTED!</h1>
 <pre>Willow Weiner
@@ -249,5 +218,7 @@ Because this sentiment is expressed through the sonic medium, it is important to
 
 
 </pre>
+
+<?php include('footer.php'); ?>
 
 </html>

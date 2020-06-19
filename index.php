@@ -8,47 +8,7 @@
 	    <link rel="stylesheet" type="text/css" href="grid.css">
 	</head>
 
-
-	<header>
-
-
-		<h1 class="logo">willowisp</h1>
-		
-		<nav id="navigation">
-			<ul>
-				<li><a href="index.html">Home<a></li>
-				<li><a href="index.html">Biography<a></li>
-				<li><a href="projects.html">Projects</a></li>
-				<li><a href="music.html">Music</a></li>
-				<li><a href="contact.html">Contact</a></li>
-
-			</ul>
-		</nav>
-
-		<div id="hamburger" onclick="hamburger_toggle()">
-			<div class="hamburger-toggle" id="hamburger-toggle" >
-				<span></span>
-				<span></span>
-			</div>
-			<script type="text/javascript">
-				function hamburger_toggle(){
-					var element = document.getElementById("hamburger-toggle");
-					element.classList.toggle("active");
-					var nav = document.getElementById("navigation");
-					nav.classList.toggle("active");
-				}
-			</script>
-		</div>
-
-		<div class="break black social-media">  
-			<ul>
-				<li><a href="https://thewillowisp.bandcamp.com">Bandcamp</a></li>
-				<li><a href="https://soundcloud.com/willows_wisp">SoundCloud</a></li>
-				<li><a href="https://www.facebook.com/willow.weiner.music">Facebook</a></li>
-				<li><a href="https://www.youtube.com/channel/UCjAAyzt8irPBNX-Ttcol_jg">YouTube</a></li>
-			</ul>
-		</div>
-	</header>
+	<?php include('header.php'); ?>
 
 	<body>
 		<dir class="content">
@@ -80,16 +40,7 @@
 			</dir>
 
 
-		<footer>
-			<ul style="list-style: none; text-align: center;">
-				<li class="black blacktext"> hehe! you found me!</li>
-				<li class="plum"> Willow Weiner (she/her or they/them)</li>
-				<li class="coral blacktext">765.490.9939</li>
-				<li class="moonstone coraltext">willow@willowweiner.com</li>
-				<!--<li class="electric moonstonetext"><br></li>-->
-				<li class="white blacktext">&copy 2019</li>
-			</ul>
-		</footer>
+		<?php include('footer.php'); ?>
 
 	</body>
 
