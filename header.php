@@ -1,3 +1,13 @@
+    <head>
+        <meta charset="utf-8">
+        <title>w i l l o w i s p</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="icon" href=<?php dirname(__FILE__)?>"/pictures/favicon.png">
+        <link type="text/css" rel="stylesheet" href=<?php dirname(__FILE__)?>"/normalize.css">
+        <link rel="stylesheet" type="text/css" href=<?php dirname(__FILE__)?>"/style.css">
+        <link rel="stylesheet" type="text/css" href=<?php dirname(__FILE__)?>"/grid.css">
+    </head>
+    
     <header>
 
 
