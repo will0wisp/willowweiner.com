@@ -20,6 +20,9 @@
 	--break-z: 1;
 	--header-height: 80px;
 
+	--border-size--large : 5px;
+	--border-size-small: 2px;
+
 }
 body, html {
 	width: 100%;
@@ -43,6 +46,7 @@ body{
 
 	display: flex;
 	flex-direction: column;
+
 }
 
 .content{
@@ -77,10 +81,15 @@ h2{
 
 }
 
+p {
+	text-align:justify;
+}
 
 em{
 	color: var(--plum);
+	font-weight: bold;
 	font-style: normal;
+	background: var(--moonstone-blue);
 }
 
 a{
@@ -118,6 +127,11 @@ a{
 	background: var(--plum);
 }
 
+.transparent-black{
+	background: rgba(1, 2, 12, .3);
+}
+
+
 
 .blacktext{
 	color: var(--black);
@@ -138,10 +152,25 @@ a{
 	color: var(--plum);
 }
 
-
-.transparent-black{
-	background: rgba(1, 2, 12, .3);
+.blackborder{
+	border-color: var(--black);
 }
+.whiteborder{
+	border-color: var(--white);
+}
+.moonstoneborder{
+	border-color: var(--moonstone-blue);
+}
+.coralborder{
+	border-color: var(--coral);
+}
+.electricborder{
+	border-color: var(--electric-blue);
+}
+.plumborder{
+	border-color: var(--plum);
+}
+
 
 /* --------------------------------------------------------------------------------------------- */
 /* navigation bar styles start here */

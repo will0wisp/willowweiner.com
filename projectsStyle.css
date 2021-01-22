@@ -1,0 +1,58 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+:root{
+    /* color pallate */
+    --black: #01020C;
+    --coral: #A93F55;
+    --moonstone-blue: #5EB1BF;
+    --electric-blue: #7DF9FF;
+    --white: #CDEDF6;
+
+    --plum: #8B165F;
+
+    --border-size--large : 5px;
+
+    --border-size-small: 2px;
+
+}
+
+.project{
+    border: var(--border-size--large); 
+    padding: 10px;
+}
+
+.projectTitle{
+    /*background: var(--electric-blue);
+    color: var(--plum);*/
+    text-align: center;
+}
+
+.projectText{
+    border-width: var(--border-size--small);
+    border-style: solid;
+    padding: 5px;
+    background: var(--black);
+}
+
+.soundcloudPlaylist{
+    padding:10px;
+}
+
+.aspect-ratio-container-1-1{
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    padding-top: 100%;
+}
+.responsive-iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  margin-top:10px;
+}
