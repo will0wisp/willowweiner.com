@@ -19,20 +19,31 @@
 				
 				<dir class="item-1-2 black">
 					<p>
-						<h2 class="plumtext" style="display: inline;">Willow Weiner</h2> is currently a fourth-year at Oberlin College. While origionally admitted for French Horn Performance, her roots have spread into the stranger corners of the institution. 
+						<em>Willow Weiner</em></h2>is a creative technologist, composer, and multi-instrumentalist from West Lafayette, IN.
 					</p>
 					<p>
-						In addition to majoring in <em>Mathematics</em>, Willow is working through an individually-proposed conservatory major in <em>Artistic Engineering</em> (a working title). The major centers around application of scientific knowledge and structures to creative pursuits (especially in the sonic medium). Think of things like:
+						She is primarily interested in systems.  
+						Be they dynamic, generative, emergent, social, or even systems for real-time performance, Willow wants to find more about what makes them tick. As one might imagine, this means that her work forms quite the transdisciplinary constellation. Her experience bridge gaps between:
 
 						<ul style="padding-left: 4rem; text-align: left;">
-							<li>generative and algoritmic composition,</li>
-							<li>machine-learning based timbre replication,</li>
-							<li>the modeling of room acoustics (especially for VR), and</li>
-							<li>real-time audio signal processing.</li>
+							<li>Mathematical Modeling and Optimization,</li>
+							<li>Digital Signal Processing,</li>
+							<li>Acoustics and Psychoacoustics,</li>
+							<li>Simulation (dynamic systems, spatial audio, GPU graphics/computation)</li>
+							<li>Creative Coding (both audio and visual), and</li>
+							<li>Design of real-time performance systems.</li>
 						</ul>
 					</p>
 					<p>
-						While epecially interested in the above, Willow also enjoys watching thunderstorms and humming.
+						Artistically, Willow's background is rooted in performance. They are classically trained on the French Horn, and played fingerstyle guitar seriously for about a decade. Since then, her branches have stretched into the realms of electro-acoustics and multimedia. Everything Willow does is with the goal of spreading (or perhaps giving permission for) authenticity, empathy, and a thoughtful, quiet, confidence. She is very good at failing, and is getting better about getting over it.
+					</p>
+					<p>
+						A soon-to-be graduate of Oberlin College (BA in Mathematics and BMus in Artistic Engineering), Willow hopes to set root somewhere her work might serve to:
+						<ul style="padding-left: 4rem; text-align: left;">
+							<li>help people more easily make art,</li>
+							<li>, or</li>
+							<li>further the collective of human knowledge.</li>
+						</ul>
 					</p>
 				</dir>
 
