@@ -108,6 +108,14 @@ a{
 	z-index: var(--break-z);
 }
 
+/* ----------------------------------------------------------   
+/* These let you change things on the fly, but are probably more  
+/* appropriate for prototyping than maintaining legible code.     
+/* ----------------------------------------------------------    */
+
+
+
+
 .black{
 	background: var(--black);
 }

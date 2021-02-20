@@ -18,24 +18,6 @@
 
 }
 
-.project{
-    border: var(--border-size--large); 
-    padding: 10px;
-}
-
-.projectTitle{
-    /*background: var(--electric-blue);
-    color: var(--plum);*/
-    text-align: center;
-}
-
-.projectText{
-    border-width: var(--border-size--small);
-    border-style: solid;
-    padding: 5px;
-    background: var(--black);
-}
-
 .soundcloudPlaylist{
     padding:10px;
 }
@@ -55,4 +37,58 @@
   width: 100%;
   height: 100%;
   margin-top:10px;
+}
+
+
+
+
+/* These are each individual project*/
+#projects > dir {
+  border-width: 5px;
+  border-style: solid;
+  padding: 10px;
+}
+/* These are project titles*/
+#projects > dir h2 {
+  text-align: center;
+}
+/* All paragraphs/text in a project */
+#projects > dir p { 
+    background: var(--black);
+    border-width: 3px;
+}
+#projects > dir .pic{
+  padding:10px;
+}
+
+#projects > dir .list-item p:nth-child(odd) { 
+    border-style: solid;
+    padding: 5px;
+}
+
+#projects > dir p:nth-child(even) { 
+    border-style: none;
+}
+/* Odd Projects in the list */
+#projects > dir:nth-child(odd){
+  border-color: var(--coral); 
+}
+#projects > dir:nth-child(odd) h2{ /* Title*/
+  background: var(--electric-blue);
+  color: var(--plum);
+}
+#projects > dir:nth-child(odd) p{ /* paragraphs*/
+  border-color: var(--electric-blue);
+}
+
+/* Even Projects in the list */
+#projects > dir:nth-child(even){
+  border-color: var(--moonstone-blue);    
+}
+#projects > dir:nth-child(even) h2{  /*Title*/
+  background: var(--coral);
+  color: var(--black);
+}
+#projects> dir:nth-child(even) p{ /* paragraphs*/
+  border-color: var(--coral);
 }
