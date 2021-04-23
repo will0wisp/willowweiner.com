@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en-US">
 
-        <script type="text/javascript" src="https://rawgit.com/patriciogonzalezvivo/glslCanvas/master/dist/GlslCanvas.js"></script>
+<script type="text/javascript" src="https://rawgit.com/patriciogonzalezvivo/glslCanvas/master/dist/GlslCanvas.js"></script>
 
     First off, I am only hosting this on my website because moire patterns don't work well/at all with compression/screensharing. 
     If you happen to poke around other things on my website please don't judge me, it is currently under construction.
