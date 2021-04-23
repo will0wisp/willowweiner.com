@@ -19,11 +19,11 @@
 				
 				<dir class="item-1-2 black">
 					<p>
-						<em>Willow Weiner</em></h2>is a creative technologist, composer, and multi-instrumentalist from West Lafayette, IN.
+						<em>Willow Weiner</em> is a creative technologist, composer, and multi-instrumentalist from West Lafayette, IN.
 					</p>
 					<p>
 						She is primarily interested in systems.  
-						Be they dynamic, generative, emergent, social, or even systems for real-time performance, Willow wants to find more about what makes them tick. As one might imagine, this means that her work forms quite the transdisciplinary constellation. Her experience bridge gaps between:
+						Be those systems dynamic, generative, emergent, social, or even systems for real-time performance, Willow likes to root about in them, and try to find out what makes them tick. As one might imagine, this means that her work forms quite the transdisciplinary constellation. Her experience bridge gaps between:
 
 						<ul style="padding-left: 4rem; text-align: left;">
 							<li>Mathematical Modeling and Optimization,</li>
@@ -35,15 +35,10 @@
 						</ul>
 					</p>
 					<p>
-						Artistically, Willow's background is rooted in performance. They are classically trained on the French Horn, and played fingerstyle guitar seriously for about a decade. Since then, her branches have stretched into the realms of electro-acoustics and multimedia. Everything Willow does is with the goal of spreading (or perhaps giving permission for) authenticity, empathy, and a thoughtful, quiet, confidence. She is very good at failing, and is getting better about getting over it.
+						Artistically, Willow's background is rooted in performance. They are classically trained on the French Horn, and have over a decade of experience in fingerstyle guitar performance. Since then, her branches have stretched into the realms of electro-acoustics and multimedia. Everything Willow does is with the goal of spreading (or perhaps giving permission for) authenticity, empathy, and a thoughtful, quiet, confidence. She is very good at failing, and is getting better about getting over it.
 					</p>
 					<p>
-						A soon-to-be graduate of Oberlin College (BA in Mathematics and BMus in Artistic Engineering), Willow hopes to set root somewhere her work might serve to:
-						<ul style="padding-left: 4rem; text-align: left;">
-							<li>help people more easily make art,</li>
-							<li>, or</li>
-							<li>further the collective of human knowledge.</li>
-						</ul>
+						A soon-to-be graduate of Oberlin College (BA in Mathematics and BMus in Artistic Engineering), Willow hopes to set root somewhere her work might serve to help people find and share beauty or knowledge.
 					</p>
 				</dir>
 
