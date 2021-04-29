@@ -71,9 +71,32 @@
 						</dir>
 					</dir>
 				</dir>
+                <!--MICROTONAL MODULATION-->
+                <dir class="container item-1-1">
+                    <h2 class="item-1-1">Improvisation system with pitch-based sample playback and feedback</h2> 
+                        <dir class = "container item-1-2 list-item">
+                            <p>
+                               
+                                In music theory, 'modulation' refers to  .
+
+                                This project extends that notion for music using any .
+                                Modern western 12-note equal division of the octave.
+                            </p>    
+                        </dir>
+                </dir>
+
 				<!--MICROTONAL MODULATION-->
-				<dir class="container item-1-2">
+				<dir class="container item-1-1">
 					<h2 class="item-1-1">Microtonal Modulation</h2>	
+                        <dir class = "container item-1-2 list-item">
+                            <p>
+                               
+                                In music theory, 'modulation' refers to  .
+
+                                This project extends that notion for music using any .
+                                Modern western 12-note equal division of the octave.
+                            </p>    
+                        </dir>
 				</dir>
 
 
