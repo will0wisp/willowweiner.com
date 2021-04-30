@@ -81,37 +81,41 @@
                         </p>
                     </dir>
                     <dir class="container item-1-2">
-                        <dir class = "item-1-1 soundcloud_playlist">
-                            <iframe style="padding:10px;" width="100%" height="450" scrolling="no" frameborder="no" allow="autoplay"src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/1199241910%3Fsecret_token%3Ds-btbym6aGdpF&color=%238b165f&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe><div style="font-size: 10px; color: #cccccc;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;"><a href="https://soundcloud.com/willows_wisp" title="willowisp" target="_blank" style="color: #cccccc; text-decoration: none;padding-left: 10px;">willowisp</a> · <a href="https://soundcloud.com/willows_wisp/sets/multiscale_markov-demos/s-btbym6aGdpF" title="multiscale_markov demos" target="_blank" style="color: #cccccc; text-decoration: none;">multiscale_markov demos</a></div>
-                        </dir>
+                        <iframe class = "item-1-1 soundcloudPlaylist" width="100%" height="450" scrolling="no" frameborder="no" allow="autoplay"src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/1199241910%3Fsecret_token%3Ds-btbym6aGdpF&color=%238b165f&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe><div style="font-size: 10px; color: #cccccc;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;"><a href="https://soundcloud.com/willows_wisp" title="willowisp" target="_blank" style="color: #cccccc; text-decoration: none;padding-left: 10px;">willowisp</a> · <a href="https://soundcloud.com/willows_wisp/sets/multiscale_markov-demos/s-btbym6aGdpF" title="multiscale_markov demos" target="_blank" style="color: #cccccc; text-decoration: none;">multiscale_markov demos</a></div>
                     </dir>
                 </dir>
-                <!--MICROTONAL MODULATION-->
+                <!--GUITAR IMPROV SYSTEM-->
                 <dir class="container item-1-1">
-                    <h2 class="item-1-1">Improvisation system with pitch-based sample playback and feedback</h2> 
-                        <dir class = "container item-1-2 list-item">
-                            <p>
-                               
-                                In music theory, 'modulation' refers to  .
+                    <h2 class="item-1-1">Improvisation System with Sample Feedback</h2> 
+                    <dir class="container item-1-2">
+                        <iframe class = "item-1-1 soundcloudPlaylist"  width="100%" height="300" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/1250148727%3Fsecret_token%3Ds-hkco0uImpib&color=%237df9ff&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe><div style="font-size: 10px; color: #cccccc;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;"><a href="https://soundcloud.com/willows_wisp" title="willowisp" target="_blank" style="color: #cccccc; text-decoration: none;">willowisp</a> · <a href="https://soundcloud.com/willows_wisp/sets/improvisational-system-with-sample-feedback-examples/s-hkco0uImpib" title="Improvisational System with Sample Feedback Examples" target="_blank" style="color: #cccccc; text-decoration: none;">Improvisational System with Sample Feedback Examples</a></div>
+                    </dir>
+                    <dir class = "container item-1-2 list-item">
+                        <p>
+                           
+                            In music theory, 'modulation' refers to  .
 
-                                This project extends that notion for music using any .
-                                Modern western 12-note equal division of the octave.
-                            </p>    
-                        </dir>
+                            This project extends that notion for music using any .
+                            Modern western 12-note equal division of the octave.
+                        </p>    
+                    </dir>
                 </dir>
 
                 <!--MICROTONAL MODULATION-->
                 <dir class="container item-1-1">
                     <h2 class="item-1-1">Microtonal Modulation</h2> 
-                        <dir class = "container item-1-2 list-item">
-                            <p>
-                               
-                                In music theory, 'modulation' refers to  .
+                    <dir class = "container item-1-2 list-item">
+                        <p>
+                           
+                            In music theory, 'modulation' refers to  .
 
-                                This project extends that notion for music using any .
-                                Modern western 12-note equal division of the octave.
-                            </p>    
-                        </dir>
+                            This project extends that notion for music using any .
+                            Modern western 12-note equal division of the octave.
+                        </p>    
+                    </dir>
+                    <dir class="container item-1-2">
+                        <iframe class="item-1-1 soundcloudPlaylist" width="100%" height="300" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/1250139673%3Fsecret_token%3Ds-Oqf9Jzl1dRx&color=%238b165f&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe><div style="font-size: 10px; color: #cccccc;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;"><a href="https://soundcloud.com/willows_wisp" title="willowisp" target="_blank" style="color: #cccccc; text-decoration: none;">willowisp</a> · <a href="https://soundcloud.com/willows_wisp/sets/microtonal-modulation-examples/s-Oqf9Jzl1dRx" title="Microtonal Modulation Examples" target="_blank" style="color: #cccccc; text-decoration: none;">Microtonal Modulation Examples</a></div>
+                    </dir>
                 </dir>
 
 
