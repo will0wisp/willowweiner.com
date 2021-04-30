@@ -30,7 +30,22 @@
         
         <dir class="content">
             <dir class="container item-1-1" id="projects">
-
+                <dir class="container item-1-1">
+                    <h2 class="item-1-1">README</h2> 
+                    <dir class = "container item-1-1 list-item">
+                        <p>
+                            Please use Google Chrome (preferable) or Safari if possible. 
+                            I have not done much testing on other web browsers.
+                        </p>
+                        <p>
+                            Likewise, this website is best experienced on a wide screen. 
+                            By that, I mean a computer is preferable to a phone or narrow browser window.
+                        </p>
+                        <p>
+                            This portfolio 
+                        </p>
+                    </dir>
+                </dir>
                 <!--MULTISCALE MARKOV CHAINS-->
                 <dir class="container item-1-1">
                     <h2 class="item-1-1">Multi-scale Markov Chains</h2> 
