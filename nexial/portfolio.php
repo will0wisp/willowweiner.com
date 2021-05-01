@@ -282,8 +282,8 @@
                             <p>
                                 This is my implementation of Johnathan McCabe's <a href="http://www.jonathanmccabe.com/Cyclic_Symmetric_Multi-Scale_Turing_Patterns.pdf">Multiscale Turing Patterns</a>.
                                 The idea here is to run many Turing Patterns at one time, with multiple spatial scales (stripe widths). 
-                                The catch is that at each point, we only use the scale at which there is least variablity at that point. 
-                                This maximes variability across all of the spatial scales.
+                                At each step, we calculate which spatial scale has least variability. 
+                                We use the Turing pattern at that scale to maximize variability across scales.
                             </p>
                             <p>
                                 This idea was part of the inspiriation for my 
