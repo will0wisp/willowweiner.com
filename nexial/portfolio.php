@@ -42,11 +42,8 @@
                             By that, I mean a computer is preferable to a phone or narrow browser window.
                         </p>
                         <p>
-                            This portfolio 
-                        </p>
-                        <p>
                             In the musical examples, please feel free to jump around in whatever way your interest takes you! 
-                            10-15 seconds is probably enough to grasp the gist of each.
+                            10-15 seconds is probably enough to grasp the gist for most of the examples.
                         </p>
                     </dir>
                 </dir>
@@ -138,31 +135,27 @@
                     </dir>
                     <dir class="item-1-2 list-item">
                         <p> 
-                            This project is a collaboration with Kiera Saltz, made for
-                                <a href="https://elistine.com/">Eli Stine</a>'s Fall 2020 
-                                <a href="https://timara.net/avc">Audiovisual Composition Class</a> 
-                                at Oberlin College.
+                            This project is a collaboration with Kiera Saltz.
+                            It was made using TouchDesigner, GLSL shaders, Ableton Live, MaxForLive, and OSC.
                         </p>
                         <p>
-                            To me, <em>eye_grid</em> is focused on the joys and innate loneliness that come with conciesness. Existence is beautiful— but because we are all in separate minds, we perceive the world differently and can never exactly share that which we experience. 
+                            To me, <em>eye_grid</em> is focused on the joys and innate loneliness that come with conciseness. Existence is beautiful— but because we are all in separate minds, we perceive the world differently and can never exactly share that which we experience. 
                         </p>
                         <p>
                             Much of the visual language is composed of simple grids, coecentric shapes, and centered circles.
 
-                            These basic visual elements are made with <em>GLSL</em> shaders. Post processing is handeled in <em>TouchDesigner</em>. 
-                            We designed a GUI (see image below) which functions very similarly to a lighting console. It allows for easy scene and parameter changes.
+                            We designed and coded a User Interface (UI) which functions very similarly to a lighting console. 
+                            It allows for easy scene and parameter changes. 
+                            You can see the interface in the image below.
                         </p>
                         <p>
-                            The project is set up for live performance with <em>Ableton Live</em> and using <em>OSC</em> messages to communicate with the visual system.
+                            The project is set up for live audiovisual performance. 
+                            The UI can be easily configured to perform other songs.
                         </p>
-
-                
                         <p>
-                                While the audiovisual system is finished, the compositional elements are a rough draft. 
-                            Some editing would likely take place before live performance.
+                            Again, please feel free to jump around!
                         </p>
-
-                        <img class="item-1-1" src="pictures/eye_grid_gui.png" alt="A picture of the GUI for this project. There are assorted sliders and graphs. Several component previews are available. A scene designer and transition control strip are at the bottom.">
+                        <img class="item-1-1" src="../pictures/eye_grid_gui.png" alt="A picture of the GUI for this project. There are assorted sliders and graphs. Several component previews are available. A scene designer and transition control strip are at the bottom.">
                         
                     </dir>
 
@@ -374,6 +367,6 @@
 
     </body>
 
-    <?php include('footer.php'); ?>
+    <?php include('../footer.php'); ?>
 
 </html>
