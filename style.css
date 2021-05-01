@@ -26,6 +26,13 @@
 }
 body, html {
 	width: 100%;
+
+	/* TODO HACK:Fix this absolute hack job.
+	This should makes sure we jump past the navbar when jumping places.
+	It doesn't work at all!!!!
+
+	*/
+	scroll-padding-top: var(--header-height) ; 
 }
 
 *, *::before, *::after {
@@ -84,6 +91,8 @@ h2{
 p {
 	text-align:justify;
 	padding:10px;
+	/*HACK This strikes me as dangerous!! */
+	width:100%;
 }
 
 em{

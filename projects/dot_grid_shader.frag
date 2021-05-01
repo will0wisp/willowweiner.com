@@ -30,5 +30,5 @@ void main() {
     float dist = distance(p1,st);
     float dist2 = distance(p1,st);
 
-    gl_FragColor = vec4(st.x*st.x*.6,0.,abs(sin(10.*dist2*dist*6.*(u_time+20.))),1.0);
+    gl_FragColor = vec4(st.x*st.x*.6,0.,abs(sin(10.*dist2*dist*6.*(u_time+100.))),1.0);
 }
