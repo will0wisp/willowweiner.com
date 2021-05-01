@@ -78,7 +78,7 @@
                         <p>
                             I have provided some example output in the SoundCloud playlist.
 
-                            "Sine1" was generated real-time from singing over a drone.
+                            "Sine1" and "Song1" were generated real-time from singing over a drone.
                             The rest of the examples were generated from drum patterns.
                         </p>
                     </dir>
@@ -94,14 +94,20 @@
                     </dir>
                     <dir class = "container item-1-2 list-item">
                         <p>
-                           
-                            In music theory, 'modulation' refers to  .
-
-                            This project extends that notion for music using any .
-                            Modern western 12-note equal division of the octave.
-                        </p>    
+                            When improvising, I sometimes play a musical phrase in response to a note. In the project, I designed software that improvises in this fashion.
+                        </p>  
+                        <p>
+                            First, musical samples are recorded and labeled with the note after which they should be played.
+                        </p>  
+                        <p>
+                            Then, sofware detects the notes you are playing, and plays back recorded audio as appropriate. 
+                            This is fed back into the system&mdash;and even more audio is played back in response.
+                        </p>
+                        <p>
+                            This leads to host of possible sonic output.
+                            I have included audio examples from a recent solo acoustic guitar improvisation.
+                        </p>
                     </dir>
-                </dir>
 
                 <!--MICROTONAL MODULATION-->
                 <dir class="container item-1-1">
