@@ -42,11 +42,17 @@
                             By that, I mean a computer is preferable to a phone or narrow browser window.
                         </p>
                         <p>
-                            This portfolio 
+                            In the musical examples, please feel free to jump around in whatever way your interest takes you! 
+                            10-15 seconds is probably enough to grasp the gist for most of the examples.
                         </p>
                         <p>
-                            In the musical examples, please feel free to jump around in whatever way your interest takes you! 
-                            10-15 seconds is probably enough to grasp the gist of each.
+                            It is okay if you do get not to everything, especially in the 'Visual Art' section. 
+                            I understand your time is limited. 
+                            This portfolio was meant to give you a taste of the sorts of work I do.
+                            I also wanted to include enough so that (hopefully) everyone can find something of interest!
+                        </p>
+                        <p>
+                            Thanks for reading! I hope your day is going well!
                         </p>
                     </dir>
                 </dir>
@@ -88,7 +94,7 @@
                 </dir>
                 <!--GUITAR IMPROV SYSTEM-->
                 <dir class="container item-1-1">
-                    <h2 class="item-1-1">Improvisation System with Sample Feedback</h2> 
+                    <h2 class="item-1-1">Improvisational System with Sample Feedback</h2> 
                     <dir class="container item-1-2">
                         <iframe class = "item-1-1 soundcloudPlaylist"  width="100%" height="300" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/1250148727%3Fsecret_token%3Ds-hkco0uImpib&color=%237df9ff&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe><div style="font-size: 10px; color: #cccccc;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;"><a href="https://soundcloud.com/willows_wisp" title="willowisp" target="_blank" style="color: #cccccc; text-decoration: none;">willowisp</a> · <a href="https://soundcloud.com/willows_wisp/sets/improvisational-system-with-sample-feedback-examples/s-hkco0uImpib" title="Improvisational System with Sample Feedback Examples" target="_blank" style="color: #cccccc; text-decoration: none;">Improvisational System with Sample Feedback Examples</a></div>
                     </dir>
@@ -108,18 +114,35 @@
                             I have included audio examples from a recent solo acoustic guitar improvisation.
                         </p>
                     </dir>
+                </dir>
 
                 <!--MICROTONAL MODULATION-->
                 <dir class="container item-1-1">
                     <h2 class="item-1-1">Microtonal Modulation</h2> 
                     <dir class = "container item-1-2 list-item">
                         <p>
-                           
-                            In music theory, 'modulation' refers to  .
-
-                            This project extends that notion for music using any .
-                            Modern western 12-note equal division of the octave.
+                            In a lot of music (and most western music), all pitches (notes) can be thought about in relation to a specific note (the 'pitch center'). 
+                            We might say, "This song is in the key of C" (that means that C is the pitch center).
+                        </p>
+                        <p>
+                            In music theory, modulation is when that pitch center changes. 
+                            The other pitches change to maintain their relationship to the pitch center.
+                        </p>
+                        <p>
+                            In most western music, the octave is divided into 12 notes evenly. 
+                            That means that after modulation, you end up with the same set of pitches you started with.
+                        </p>
+                        <p>
+                            That is not true for the tuning systems of many traditions (in both western music and in music from other cultures). 
+                        </p>
+                        <p>
+                            This project extends the notion of modulation to every possible tuning system, and allows for easy modulation in real-time.
+                            It also extends functionality of many software tools and instruments, so that they can be played in any tuning system.
                         </p>    
+                        <p>
+                            Unfortunately, microtonal modulation is not easy to listen for without extensive ear training.
+                            I have included two examples from my musical practice, but it is okay if you can not identify anything you are hearing!
+                        </p>
                     </dir>
                     <dir class="container item-1-2">
                         <iframe class="item-1-1 soundcloudPlaylist" width="100%" height="300" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/1250139673%3Fsecret_token%3Ds-Oqf9Jzl1dRx&color=%238b165f&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe><div style="font-size: 10px; color: #cccccc;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;"><a href="https://soundcloud.com/willows_wisp" title="willowisp" target="_blank" style="color: #cccccc; text-decoration: none;">willowisp</a> · <a href="https://soundcloud.com/willows_wisp/sets/microtonal-modulation-examples/s-Oqf9Jzl1dRx" title="Microtonal Modulation Examples" target="_blank" style="color: #cccccc; text-decoration: none;">Microtonal Modulation Examples</a></div>
@@ -138,31 +161,28 @@
                     </dir>
                     <dir class="item-1-2 list-item">
                         <p> 
-                            This project is a collaboration with Kiera Saltz, made for
-                                <a href="https://elistine.com/">Eli Stine</a>'s Fall 2020 
-                                <a href="https://timara.net/avc">Audiovisual Composition Class</a> 
-                                at Oberlin College.
+                            This project is a collaboration with Kiera Saltz.
+                            It was made using TouchDesigner, GLSL shaders, Ableton Live, MaxForLive, and OSC.
                         </p>
                         <p>
-                            To me, <em>eye_grid</em> is focused on the joys and innate loneliness that come with conciesness. Existence is beautiful— but because we are all in separate minds, we perceive the world differently and can never exactly share that which we experience. 
+                            To me, <em>eye_grid</em> is focused on the joys and innate loneliness that come with conciseness. Existence is beautiful— but because we are all in separate minds, we perceive the world differently and can never exactly share that which we experience. 
                         </p>
                         <p>
                             Much of the visual language is composed of simple grids, coecentric shapes, and centered circles.
 
-                            These basic visual elements are made with <em>GLSL</em> shaders. Post processing is handeled in <em>TouchDesigner</em>. 
-                            We designed a GUI (see image below) which functions very similarly to a lighting console. It allows for easy scene and parameter changes.
+                            We designed and coded a User Interface (UI) which functions very similarly to a lighting console. 
+                            It allows for easy scene and parameter changes. 
+                            You can see the interface in the image below.
                         </p>
                         <p>
-                            The project is set up for live performance with <em>Ableton Live</em> and using <em>OSC</em> messages to communicate with the visual system.
+                            The project is set up for live audiovisual performance. 
+                            The UI can be easily configured to perform other songs.
                         </p>
-
-                
                         <p>
-                                While the audiovisual system is finished, the compositional elements are a rough draft. 
-                            Some editing would likely take place before live performance.
+                            Again, please feel free to jump around! 
+                            Some of my favorite imagery occurs at 0:00-0:47, 1:35-1:50, 1:58-2:07 and after 2:27. 
                         </p>
-
-                        <img class="item-1-1" src="pictures/eye_grid_gui.png" alt="A picture of the GUI for this project. There are assorted sliders and graphs. Several component previews are available. A scene designer and transition control strip are at the bottom.">
+                        <img class="item-1-1" src="../pictures/eye_grid_gui.png" alt="A picture of the GUI for this project. There are assorted sliders and graphs. Several component previews are available. A scene designer and transition control strip are at the bottom.">
                         
                     </dir>
 
@@ -300,7 +320,7 @@
                         </dir>
                         <dir class="pic-hover-text">
                             <p>
-                                <em>Untitled</em> 2019. <br>
+                                <em>hex_grid</em> 2019. <br>
                                 GLSL shader. 
                             </p>
                         </dir>
@@ -328,7 +348,7 @@
                                 GLSL shader.
                             </p>
                             <p>
-                                A <a href="https://en.wikipedia.org/wiki/Moir%C3%A9_pattern"> Moiré Pattern</a>.
+                                An exploration of <a href="https://en.wikipedia.org/wiki/Moir%C3%A9_pattern"> Moiré Patterns</a>.
                             </p>
 
                         </dir>
@@ -374,6 +394,6 @@
 
     </body>
 
-    <?php include('footer.php'); ?>
+    <?php include('../footer.php'); ?>
 
 </html>
