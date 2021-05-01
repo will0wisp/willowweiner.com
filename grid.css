@@ -81,6 +81,10 @@ body{
 	opacity: 1;
 	transition: .6s ease-in-out;
 }
+.pic-hover-container:hover .pic-hover-text.*{
+	/*TODO HACK this needs to releate to the nav bar's z-index*/
+	z-index: 99;
+}
 
 
 @media screen and (max-width: 815px){
