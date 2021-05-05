@@ -182,7 +182,7 @@
                             Again, please feel free to jump around! 
                             Some of my favorite imagery occurs at 0:00-0:47, 1:35-1:50, 1:58-2:07 and after 2:27. 
                         </p>
-                        <img class="item-1-1" src="../pictures/eye_grid_gui.png" alt="A picture of the GUI for this project. There are assorted sliders and graphs. Several component previews are available. A scene designer and transition control strip are at the bottom.">
+                        <img class="item-1-1" src="/pictures/eye_grid_gui.png" alt="A picture of the GUI for this project. There are assorted sliders and graphs. Several component previews are available. A scene designer and transition control strip are at the bottom.">
                         
                     </dir>
 
@@ -215,7 +215,7 @@
 
                     <!--Sky-->
                     <dir class="item-1-3 container pic-hover-container">
-                        <img class="item-1-1 pic" src="../projects/sky.png" alt="">
+                        <img class="item-1-1 pic" src="/projects/sky.png" alt="">
                         <dir class="pic-hover-text">
                             <p>
                                 <em>clouds</em> 2020. <br>
@@ -231,7 +231,7 @@
 
                     <!--Growing Circles-->
                     <dir class="aspect-ratio-container-1-1 container item-1-3 pic-hover-container">
-                        <video class="item-1-1 pic responsive-iframe" src="../projects/circles_grow.mp4" alt="" controls loop autoplay playsinline></video>
+                        <video class="item-1-1 pic responsive-iframe" src="/projects/circles_grow.mp4" alt="" controls loop autoplay playsinline></video>
                         <dir class="pic-hover-text">
                             <p>
                                 <em>circles_grow</em> 2021. <br>
@@ -252,7 +252,7 @@
                 -->
                     <!--Album Style Transfer-->
                     <dir class="item-1-3 container pic-hover-container">
-                        <img class="item-1-1 pic" src="../projects/album_style_transfer.png" alt="">
+                        <img class="item-1-1 pic" src="/projects/album_style_transfer.png" alt="">
                         <dir class="pic-hover-text">
                             <p>
                                 <em>Untitled</em> 2019. <br>
@@ -268,7 +268,7 @@
                     <!--Multiscale Turing Pattern-->
                     <dir class="item-2-3 container pic-hover-container">
                         <dir class="aspect-ratio-container-2-3">
-                            <video class="item-1-1 responsive-iframe" src="../projects/multiscale_take2.mp4" alt="" controls loop autoplay playsinline></video>
+                            <video class="item-1-1 responsive-iframe" src="/projects/multiscale_take2.mp4" alt="" controls loop autoplay playsinline></video>
                         </dir>
                         <dir class="pic-hover-text">
                             <p>
@@ -298,7 +298,7 @@
                     <!--Continuous 1d Cellular automata-->
                     <dir class="item-1-3 pic-hover-container container">
                         <dir class="aspect-ratio-container-1-1">
-                            <img class="responsive-iframe" src="../projects/cont_ca.jpg" alt="">
+                            <img class="responsive-iframe" src="/projects/cont_ca.jpg" alt="">
                         </dir>
                         <dir class="pic-hover-text">
                             <p>
@@ -316,7 +316,7 @@
                     <!-- Hexgrid Shader-->
                     <dir class="container item-1-3 pic-hover-container">
                         <dir class="aspect-ratio-container-1-1 container">
-                            <video class="item-1-1 pic" src="../projects/hexgrid.mp4" alt="" controls loop autoplay playsinline></video>
+                            <video class="item-1-1 pic" src="/projects/hexgrid.mp4" alt="" controls loop autoplay playsinline></video>
                         </dir>
                         <dir class="pic-hover-text">
                             <p>
@@ -328,7 +328,7 @@
 
                     <!--Growing Green Handdrawn flipbook-->
                     <dir class="aspect-ratio-container-1-1 container item-1-3 pic-hover-container">
-                        <video class="item-1-1 pic" src="../projects/flipbook_green_growth.mp4" alt="" controls loop autoplay playsinline></video>
+                        <video class="item-1-1 pic" src="/projects/flipbook_green_growth.mp4" alt="" controls loop autoplay playsinline></video>
                         <dir class="pic-hover-text">
                             <p>
                                 <em>growth</em> 2020. <br>
@@ -340,7 +340,7 @@
                     <!--Dot Grid Shader-->
                     <dir class="aspect-ratio-container-1-1 container item-1-3 pic-hover-container">
                         <dir class="aspect-ratio-container-1-1 item-1-1">
-                            <canvas class="glslCanvas item-1-1 responsive-iframe" data-fragment-url="../projects/dot_grid_shader.frag"></canvas>
+                            <canvas class="glslCanvas item-1-1 responsive-iframe" data-fragment-url="/projects/dot_grid_shader.frag"></canvas>
                         </dir>
                         <dir class="pic-hover-text">
                             <p>
@@ -356,7 +356,7 @@
 
                     <!--Animated WallPaper Shader-->
                     <dir class="aspect-ratio-container-1-1 item-1-3 container pic-hover-container">
-                        <video class="item-1-1 pic responsive-iframe" src="../projects/animated_wallpaper_shader.mp4" alt="" controls loop autoplay playsinline></video>
+                        <video class="item-1-1 pic responsive-iframe" src="/projects/animated_wallpaper_shader.mp4" alt="" controls loop autoplay playsinline></video>
                         <dir class="pic-hover-text">
                             <p>
                                 <em>animated_wallpaper</em> 2020. <br>
@@ -368,7 +368,7 @@
                     <!--Turing Pattern Blue Purple-->   
                     <dir class="item-2-3 container pic-hover-container">
                         <dir class="aspect-ratio-container-2-3">                    
-                            <img class="responsive-iframe" src="../projects/turing_pattern.png">
+                            <img class="responsive-iframe" src="/projects/turing_pattern.png">
                         </dir>
                         <dir class="pic-hover-text">
                             <p>
@@ -394,6 +394,6 @@
 
     </body>
 
-    <?php include('../footer.php'); ?>
+    <?php include('/footer.php'); ?>
 
 </html>
