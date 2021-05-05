@@ -230,7 +230,7 @@
                     </dir>
 
                     <!--Growing Circles-->
-                    <dir class="aspect-ratio-container-1-1 container item-1-3 pic-hover-container">
+                    <dir class="container item-1-3 pic-hover-container">
                         <video class="item-1-1 pic responsive-iframe" src="/projects/circles_grow.mp4" alt="" controls loop autoplay playsinline></video>
                         <dir class="pic-hover-text">
                             <p>
