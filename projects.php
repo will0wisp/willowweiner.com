@@ -33,7 +33,7 @@
 
 				<!--MULTISCALE MARKOV CHAINS-->
 				<dir class="container item-1-1">
-					<h2 class="item-1-1">Multi-scale Markov Chains</h2>	
+					<h2 class="item-1-1">Multi-scale Markov Chains (2020-2021)</h2>	
 					<dir class = "container item-1-2 list-item">
 						<p>
 							In this project, I aim to generate strings of tokens that are self-similar on multiple scales. 
@@ -73,32 +73,31 @@
 				</dir>
                 <!--MICROTONAL MODULATION-->
                 <dir class="container item-1-1">
-                    <h2 class="item-1-1">Improvisation system with pitch-based sample playback and feedback</h2> 
-                        <dir class = "container item-1-2 list-item">
-                            <p>
-                               
-                                In music theory, 'modulation' refers to  .
+                    <h2 class="item-1-1">Microtonal Modulation <em>2020</em></h2>
+                    <dir class = "container item-1-2 list-item">
+                    	<p>
+                    		In a number of muscial traditions, techniques are established for shifting between sets of pitches, key centers, or modes (e.g., Carnātic grahabēdham and ragamalika, Western modulation, etc.).
+                    	</p>
+                    	<p>
+                    		As official MIDI specifications do not support microtonal music, software tools using MIDI rarely do either.
 
-                                This project extends that notion for music using any .
-                                Modern western 12-note equal division of the octave.
-                            </p>    
-                        </dir>
+                    	</p>
+                    	<p>
+                    		This project allows for real-time transposition and modulation in any pitchset, using MIDI MPE and pitch bend.
+
+                    		It provides support for Scala (.scl) and Max coll (.txt) tuning files, and is currently implemented in Max and MaxForLive. 
+                    	</p>
+                    	<p>
+                    		After some minor tweaks to the UI, I plan on making this patch available for free download.
+                    	</p>
+                    	<p>
+                    		Listen to the examples to hear some sounds I've made with it.
+                    	</p>
+                    </dir>
+                    <dir class="container item-1-2">
+                        <iframe class="item-1-1 soundcloudPlaylist" width="100%" height="300" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/1250139673%3Fsecret_token%3Ds-Oqf9Jzl1dRx&color=%238b165f&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe><div style="font-size: 10px; color: #cccccc;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;"><a href="https://soundcloud.com/willows_wisp" title="willowisp" target="_blank" style="color: #cccccc; text-decoration: none;">willowisp</a> · <a href="https://soundcloud.com/willows_wisp/sets/microtonal-modulation-examples/s-Oqf9Jzl1dRx" title="Microtonal Modulation Examples" target="_blank" style="color: #cccccc; text-decoration: none;">Microtonal Modulation Examples</a></div>
+                    </dir>
                 </dir>
-
-				<!--MICROTONAL MODULATION-->
-				<dir class="container item-1-1">
-					<h2 class="item-1-1">Microtonal Modulation</h2>	
-                        <dir class = "container item-1-2 list-item">
-                            <p>
-                               
-                                In music theory, 'modulation' refers to  .
-
-                                This project extends that notion for music using any .
-                                Modern western 12-note equal division of the octave.
-                            </p>    
-                        </dir>
-				</dir>
-
 
 				<!-- AVC Final Project - Eye Grid -->
 				<dir class="container item-1-1">
