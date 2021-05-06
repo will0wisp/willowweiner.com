@@ -71,37 +71,35 @@
 					</h2>	
 					<dir class = "container item-1-2 list-item">
 						<p>
-							In this project, I aim to generate strings of tokens that are self-similar on multiple scales. 
-							The motivation here is in the formal structure of music&mdash;which is self-similar on many scales (subdivision, beat, bar, phrase, section, etc.).
-						</p>	
-						<p>
-							To do so, I break a string into sets of substrings of various periodicity. 
-							Then, each of these sets is used to build a Markov chain. 
+                            In this project, I aim to generate sequences of tokens that are self-similar on multiple scales. 
 
-							I then use these Markov chains to generate new tokens.
-						</p>		
-						<p>	
-							I made a <em> Max/MSP 'mxj' external</em>, which can build these models and generate new tokens, in real time.
-							The soundcloud playlist cointains examples of generated musical content using this system. Some of the examples are raw output. The others include composed accompanyment, to show that this technique can be practically applied in composition.
-							The corpus for each of the examples was either live improvised vocals or a MIDI drum pattern.
-						</p>
-						<p>
-							I have several ideas for further development of this project.
-						</p>
-						<p>
-							While generated output seems fairly perodic on the inteded scales, it is hard to say so objectively.
-							I would like to come up with some metric for repitition in a sequence.
-							Most work in this field is in genome analysis&mdash;working with very large strings in an offline enviornment&mdash;meaning it is not greatly applicable here.
-						</p>
-						<p>
-							Such a metric would allow for objective results. 
-							It would also allow for more self-similar output. 
-							Alogorithmic approaches (like McCabe's strategy for Multiscale Turing Patterns), or ML approaches would both be possible. 
-							Right now, I am only using feedback amplification to generate self-similar content&mdash;and I have no metric for seeing how successful I am!
-						</p>
+                            The motivation here is in the formal structure of music&mdash;which is self-similar on many scales (subdivision, beat, bar, phrase, section, etc.).
+                        </p>    
+                        <p>
+                            These tokens can be all sorts of things. 
+                            A sequence of notes would make a melody. 
+                            More abstract encodings could be used to make things like polyphonic drum patterns and visual imagery.
+                        </p>
+                        <p>
+                            First, an input sequence is chosen. 
+
+                            To generate tokens after it, a metric (from combinatorics or DSP) is used to measure how 'self-similar' the sequence is on each of a set of frequencies.
+                        </p>
+                        <p>
+                            We choose the frequency upon which the sequence is least 'self-similar'.
+                            The next token is chosen to maximize the 'self-similarity' of the sequence on that frequency. 
+                            This can be done both deterministically and stochastically (for instance, using Markov Chains).
+                        </p>
+
+                        <p>
+                            I have provided some example output in the SoundCloud playlist.
+
+                            "Sine1" and "Song1" were generated real-time from singing over a drone.
+                            The rest of the examples were generated from drum patterns.
+                        </p>
 					</dir>
 					<dir class="container item-1-2">
-						<dir class = "item-1-1 soundcloud_playlist">
+						<dir class = "item-1-1 soundcloudPlaylist">
 							<iframe style="padding:10px;" width="100%" height="450" scrolling="no" frameborder="no" allow="autoplay"src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/1199241910%3Fsecret_token%3Ds-btbym6aGdpF&color=%238b165f&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe><div style="font-size: 10px; color: #cccccc;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;"><a href="https://soundcloud.com/willows_wisp" title="willowisp" target="_blank" style="color: #cccccc; text-decoration: none;padding-left: 10px;">willowisp</a> · <a href="https://soundcloud.com/willows_wisp/sets/multiscale_markov-demos/s-btbym6aGdpF" title="multiscale_markov demos" target="_blank" style="color: #cccccc; text-decoration: none;">multiscale_markov demos</a></div>
 						</dir>
 					</dir>
@@ -121,9 +119,10 @@
 
                     	</p>
                     	<p>
-                    		This project allows for real-time transposition and modulation in any pitchset, using MIDI MPE and pitch bend.
+                    		This Max patch/MaxForLive MIDI effect allows for real-time transposition and modulation in any pitchset.
 
-                    		It provides support for Scala (.scl) and Max coll (.txt) tuning files, and is currently implemented in Max and MaxForLive. 
+                    		It provides support for Scala (.scl) and Max coll (.txt) tuning files, and is compatible with any synth that supports MIDI MPE.
+
                     	</p>
                     	<p>
                     		After some minor tweaks to the UI, I plan on making this patch available for free download.
@@ -185,6 +184,27 @@
 
 				<!-- Visual Art -->
 				<?php include('projects/visual_art.php'); ?>
+				<!--MUSIC-->
+
+				<dir class="container item-1-1">
+    				<h2 class="item-1-1">Musical Sketchbook</h2>
+    				<dir class="item-1-1 list-item">
+						<p> 
+							I make music!
+							Recently, I have been exploring polyrhythmic grooves and thickly contrapuntal textures.
+						</p>
+						<p>
+							Here is a collection of some sounds I am working on!
+						</p>
+					</dir>
+
+					<dir class="container item-1-1">
+						<dir class = "item-1-1 soundcloudPlaylist">
+							<iframe width="100%" height="450" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/1253155549&color=%238b165f&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe><div style="font-size: 10px; color: #cccccc;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;"><a href="https://soundcloud.com/willows_wisp" title="willowisp" target="_blank" style="color: #cccccc; text-decoration: none;">willowisp</a> · <a href="https://soundcloud.com/willows_wisp/sets/sketchbook-1" title="Sketchbook" target="_blank" style="color: #cccccc; text-decoration: none;">Sketchbook</a></div>
+						</dir>
+					</dir>
+    			</dir>
+ 
 
 				<!--WILLOWWEINER.COM-->
 				<dir class="container">
