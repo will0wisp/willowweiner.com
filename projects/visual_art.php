@@ -1,35 +1,14 @@
 <!--VISUAL ART-->
                 <dir class="container item-1-1">
                     <h2 class="item-1-1">Visual Art</h2>
-                    <dir class="item-1-1 list-item">
-                        <p>
-                            You can hover your mouse over each image to get more information.
-                            When hovering, the 2nd line of text is the medium. 
-                            If there are words you are unfamiliar with in that line, they are coding languages or applications used to generate the image.
-                        </p>
-                    <!--
-                        <p>
-                            The rest of the text here is the definition of a <em>shader</em>. 
-                            I would recommend skipping over it, and coming back if you feel you need the context later.
-                        </p>
-                        <p>
-                            A <em>shader</em> is a set of instructions that tells a pixel what color it should display.
-                            Shaders are run for every pixel in an image all at the same time.
-                            The shader figures out what color should be output only based on the x- and y- coordinates of the pixel (and sometimes other parameters, like how long the shader has been running).
-                        </p>    
-                        <p>
-                            Shader programming is highly used in visual graphics. It also makes things like dynamic system simulation and matrix multiplication fairly easy.
-                        </p>
-                    -->
-                    </dir>
-
+                 
                     <!--Sky-->
                     <dir class="item-1-3 container pic-hover-container">
                         <img class="item-1-1 pic" src="/projects/sky.png" alt="">
                         <dir class="pic-hover-text">
                             <p>
                                 <em>clouds</em> 2020. <br>
-                                TouchDesigner and GLSL shaders.
+                                TouchDesigner, GLSL shaders.
                             </p>
                             <p>
                                 A yellow circle (the Sun) is drawn on a blue background.
@@ -186,7 +165,7 @@
                                 OPENRNDR, GLSL shader.
                             </p>
                             <p>
-                                When two liquid chemicals react with one another under diffusion, a Turing pattern like this one is formed. 
+                                When two liquid chemicals react with one another under diffusion, a Turing pattern like this one can be formed. 
                             </p>
                         </dir>
                     </dir>

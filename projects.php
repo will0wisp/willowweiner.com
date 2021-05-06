@@ -30,10 +30,45 @@
 		
 		<dir class="content">
 			<dir class="container item-1-1" id="projects">
+				<!--GUITAR IMPROV SYSTEM-->
+                <dir class="container item-1-1">
+                    <h2 class="item-1-1">
+                    	Improvisational System with Sample Feedback,
+                    	<span class="date"> 2021.</span>
+                    </h2> 
+                    <dir class = "container item-1-2 list-item">
+                        <p>
+                            When improvising, I sometimes play a musical phrase in response to a note. In the project, I designed a MaxForLive patch that improvises in this fashion.
+                        </p>  
+                        <p>
+                            First, musical samples are recorded and labeled with the note after which they should be played.
+                        </p>  
+                        <p>
+                            Then, sofware detects the notes you are playing, and plays back recorded audio as appropriate. 
+                            This is fed back into the system&mdash;and even more audio is played back in response.
+                            See the system diagram for more detail.
+                        </p>
+                        <p>
+                            This leads to host of possible sonic output.
+                            I have included audio examples from a recent solo acoustic guitar improvisation.
+                        </p>
 
+                        <dir class="container item-1-1">
+                        	<iframe class = "item-1-1 soundcloudPlaylist"  width="100%" height="300" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/1250148727%3Fsecret_token%3Ds-hkco0uImpib&color=%237df9ff&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe><div style="font-size: 10px; color: #cccccc;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;"><a href="https://soundcloud.com/willows_wisp" title="willowisp" target="_blank" style="color: #cccccc; text-decoration: none;">willowisp</a> · <a href="https://soundcloud.com/willows_wisp/sets/improvisational-system-with-sample-feedback-examples/s-hkco0uImpib" title="Improvisational System with Sample Feedback Examples" target="_blank" style="color: #cccccc; text-decoration: none;">Improvisational System with Sample Feedback Examples</a></div>
+                    </dir>
+
+                    </dir>
+                    <img class="item-1-2 pic" src="projects/improv_system_diagram.jpeg">
+
+                    
+
+                </dir>
 				<!--MULTISCALE MARKOV CHAINS-->
 				<dir class="container item-1-1">
-					<h2 class="item-1-1">Multi-scale Markov Chains (2020-2021)</h2>	
+					<h2 class="item-1-1">
+						String Generation with Multi-Scale Self-Similarity, 
+						<span class="date">2020-21.</span> 
+					</h2>	
 					<dir class = "container item-1-2 list-item">
 						<p>
 							In this project, I aim to generate strings of tokens that are self-similar on multiple scales. 
@@ -73,7 +108,10 @@
 				</dir>
                 <!--MICROTONAL MODULATION-->
                 <dir class="container item-1-1">
-                    <h2 class="item-1-1">Microtonal Modulation <em>2020</em></h2>
+                    <h2 class="item-1-1">
+                    	Microtonal Modulation, 
+                    	<span class="date">2020.</span>
+                    </h2>
                     <dir class = "container item-1-2 list-item">
                     	<p>
                     		In a number of muscial traditions, techniques are established for shifting between sets of pitches, key centers, or modes (e.g., Carnātic grahabēdham and ragamalika, Western modulation, etc.).
@@ -101,7 +139,9 @@
 
 				<!-- AVC Final Project - Eye Grid -->
 				<dir class="container item-1-1">
-					<h2 class=" item-1-1">eye_grid</h2>
+					<h2 class=" item-1-1">eye_grid, 
+						<span class="date">2020.</span> 
+					</h2>
 					<!-- The video, hosted on vimeo -->
 					<dir class="container item-1-2">
 						<dir class="aspect-ratio-container-1-1">
@@ -110,10 +150,13 @@
 					</dir>
 					<dir class="item-1-2 list-item">
 						<p> 
-							This project is a collaboration with Kiera Saltz, made for
-								<a href="https://elistine.com/">Eli Stine</a>'s Fall 2020 
-								<a href="https://timara.net/avc">Audiovisual Composition Class</a> 
-								at Oberlin College.
+							This project is a collaboration with 
+							<a href="https://github.com/naneko">Kiera Saltz</a>, 
+							made for
+							<a href="https://elistine.com/">Eli Stine</a>'s 
+							Fall 2020 
+							<a href="https://timara.net/avc">Audiovisual Composition Class</a> 
+							at Oberlin College.
 						</p>
 						<p>
 							To me, <em>eye_grid</em> is focused on the joys and innate loneliness that come with conciesness. Existence is beautiful— but because we are all in separate minds, we perceive the world differently and can never exactly share that which we experience. 
@@ -140,12 +183,16 @@
 
 				</dir>
 
+				<!-- Visual Art -->
 				<?php include('projects/visual_art.php'); ?>
 
 				<!--WILLOWWEINER.COM-->
 				<dir class="container">
 					<dir class="container item-1-1">
-						<h2 class="item-1-1">willowweiner.com</h2>
+						<h2 class="item-1-1">
+							willowweiner.com, 
+							<span class="date">2019-21.</span>
+						</h2>
 						<dir class="item-1-3 list-item">
 							<p> I started coding this site in May 2019. I came into the project with no front-end programming experience, and it is certaintly a work in progress. </p>
 							<p> Coded from scratch (albiet with the help of many youtube tutorials), the project has given me a decent understanding of <em>HTML</em> and <em>CSS</em>, and the shallowest of dives into what can be done with <em>JavaScript</em>. </p>
@@ -163,6 +210,7 @@
 				<!-- Winter Term Guitar Recital -->
 
 				<!-- Linear Optimization Course Scheduling -->
+				<!-- Linear Optimization Twitter Bot Identification -->
 
 			</dir> <!-- end of id="projects"-->
 		</dir>

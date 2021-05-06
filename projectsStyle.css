@@ -49,7 +49,10 @@
   object-fit: fill;
 }
 
-
+/* The date information for each project */
+#projects > h2 > span.date{
+  white-space: nowrap;  
+}
 
 
 /* These are each individual project*/
@@ -101,4 +104,16 @@
 }
 #projects> dir:nth-child(even) p{ /* paragraphs*/
   border-color: var(--coral);
+}
+
+
+
+
+
+
+
+
+#projects > #date{
+  text-align: right;
+
 }

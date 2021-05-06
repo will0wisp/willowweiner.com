@@ -71,6 +71,8 @@ body{
 	text-align: justify-all;
 	width: 100%;
 	transition: .75s ease-in-out;
+	/*TODO HACK this needs to releate to the nav bar's z-index*/
+	z-index: 99;
 }
 
 .pic-hover-container:hover .pic {
@@ -80,10 +82,6 @@ body{
 .pic-hover-container:hover .pic-hover-text{
 	opacity: 1;
 	transition: .6s ease-in-out;
-}
-.pic-hover-container:hover .pic-hover-text.*{
-	/*TODO HACK this needs to releate to the nav bar's z-index*/
-	z-index: 99;
 }
 
 
