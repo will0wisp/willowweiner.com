@@ -140,66 +140,7 @@
 
 				</dir>
 
-				<!--VISUAL ART-->
-				<dir class="container item-1-1">
-					<h2 class="item-1-1">Visual Art</h2>
-
-					<!--Sky-->
-					<img class="item-1-3 pic" src="projects/sky.png" alt="">
-					<!--Growing Circles-->
-					<dir class="aspect-ratio-container-1-1 container item-1-3">
-						<video class="item-1-1 pic responsive-iframe" src="projects/circles_grow.mp4" alt="" controls loop autoplay></video>
-					</dir>
-				<!--
-
-					<dir class="aspect-ratio-container-1-1 container item-1-3">
-						<iframe title="vimeo-player" class="responsive-iframe" src="https://player.vimeo.com/video/529517905" frameborder="0" allowfullscreen></iframe>	
-					</dir>
-				-->
-					<!--Album Style Transfer-->
-					<img class="item-1-3 pic" src="projects/album_style_transfer.png" alt="">
-
-					<!--Multiscale Markov-->
-					<dir class="item-2-3 container">
-						<dir class="aspect-ratio-container-2-3">
-	                    	<video class="item-1-1 responsive-iframe" src="projects/multiscale_take2.mp4" alt="" controls loop autoplay=""></video>
-	                    </dir>
-	                </dir>
-
-	                <!--Continuous 1d Cellular automata-->
-               		<dir class="item-1-3">
-                		<img class="item-1-1 pic" src="projects/cont_ca.jpg" alt="">
-                	</dir>
-
-                	<!-- Hexgrid Shader-->
-                	<dir class="container item-1-3">
-						<dir class="aspect-ratio-container-1-1 container">
-	                    	<video class="item-1-1 pic" src="projects/hexgrid.mp4" alt="" controls loop autoplay></video>
-	                    </dir>
-	                </dir>
-
-	                <!--Growing Green Handdrawn flipbook-->
-					<dir class="aspect-ratio-container-1-1 container item-1-3">
-						<video class="item-1-1 pic" src="projects/flipbook_green_growth.mp4" alt="" controls loop autoplay></video>
-					</dir>
-
-					<!--Dot Grid Shader-->
-					<dir class="aspect-ratio-container-1-1 container item-1-3">
-						<canvas class="glslCanvas item-1-1 responsive-iframe" data-fragment-url="projects/dot_grid_shader.frag"></canvas>
-					</dir>
-
- 					<!--Animated WallPaper Shader-->
-					<dir class="aspect-ratio-container-1-1 container item-1-3">
-						<video class="item-1-1 pic responsive-iframe" src="projects/animated_wallpaper_shader.mp4" alt="" controls loop autoplay></video>
-					</dir>
-
-					<!--Turing Pattern Blue Purple-->	
-					<dir class="item-2-3 container">
-						<dir class="aspect-ratio-container-2-3">					
-							<img class="responsive-iframe" src="projects/turing_pattern.png">
-						</dir>
-					</dir>
-				</dir>
+				<?php include('projects/visual_art.php'); ?>
 
 				<!--WILLOWWEINER.COM-->
 				<dir class="container">
