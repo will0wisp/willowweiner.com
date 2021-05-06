@@ -15,10 +15,9 @@
         
         <nav id="navigation">
             <ul>
-                <li><a href=<?php dirname(__FILE__)?>"/index.php">Home<a></li>
                 <li><a href=<?php dirname(__FILE__)?>"index.php">Biography<a></li>
                 <li><a href=<?php dirname(__FILE__)?>"projects.php">Projects</a></li>
-                <li><a href=<?php dirname(__FILE__)?>"music.php">Music</a></li>
+                <li><a href=<?php dirname(__FILE__)?>"music.php">Music</a></li> 
                 <li><a href=<?php dirname(__FILE__)?>"contact.php">Contact</a></li>
 
             </ul>
