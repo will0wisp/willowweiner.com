@@ -31,7 +31,7 @@
 		<dir class="content">
 			<dir class="container item-1-1" id="projects">
 				<!--GUITAR IMPROV SYSTEM-->
-                <dir class="container item-1-1">
+                <dir class="container item-1-1"  id="improv_system">
                     <h2 class="item-1-1">
                     	Improvisational System with Sample Feedback,
                     	<span class="date"> 2021.</span>
@@ -64,7 +64,7 @@
 
                 </dir>
 				<!--MULTISCALE MARKOV CHAINS-->
-				<dir class="container item-1-1">
+				<dir class="container item-1-1"  id="multiscale">
 					<h2 class="item-1-1">
 						String Generation with Multi-Scale Self-Similarity, 
 						<span class="date">2020-21.</span> 
@@ -105,7 +105,7 @@
 					</dir>
 				</dir>
                 <!--MICROTONAL MODULATION-->
-                <dir class="container item-1-1">
+                <dir class="container item-1-1"  id="microtonal_modulation">
                     <h2 class="item-1-1">
                     	Microtonal Modulation, 
                     	<span class="date">2020.</span>
@@ -137,7 +137,7 @@
                 </dir>
 
 				<!-- AVC Final Project - Eye Grid -->
-				<dir class="container item-1-1">
+				<dir class="container item-1-1"  id="eye_grid">
 					<h2 class=" item-1-1">eye_grid, 
 						<span class="date">2020.</span> 
 					</h2>
