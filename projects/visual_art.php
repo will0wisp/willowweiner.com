@@ -76,7 +76,7 @@
             </p>
             <p>
                 This idea was part of the inspiriation for my 
-                <a href="#multiscale_sequence_project">
+                <a href="/projects.php#multiscale">
                     project on generating self-similar tokens
                 </a>
                 !
