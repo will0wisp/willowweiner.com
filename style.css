@@ -26,7 +26,6 @@
 }
 body, html {
 	width: 100%;
-
 	/* TODO HACK:Fix this absolute hack job.
 	This should makes sure we jump past the navbar when jumping places.
 	It doesn't work at all!!!!
@@ -80,6 +79,10 @@ footer ul{
 
 footer ul li{
 	font-size: 1rem;
+}
+
+footer ul li span.spamprotection {
+	display:none;
 }
 
 

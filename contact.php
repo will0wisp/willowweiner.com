@@ -15,16 +15,10 @@
 	<body>
 		<footer>
 			<ul style="list-style: none; text-align: center;">
+				
+				<?php include('footer.php'); ?>
 
 				<li class="black blacktext"> hehe! you found me!</li>
-				<li class="plum"> Willow Weiner (she/her or they/them)</li>
-				<li class="coral blacktext">765.490.9939</li>
-				<li class="moonstone coraltext">willow@willowweiner.com</li>
-				<!--<li class="electric moonstonetext"><br></li>-->
-				<li class="white blacktext">&copy 2019</li>
-				<li class="black blacktext"> hehe! you found me!</li>
-
-
 				<li class="electric blacktext" style="width: ">  . </li>
 				<li class="coral blacktext"> ..</li>
 				<li class="white blacktext">... </li>
@@ -33,15 +27,9 @@
 
 				<li class="electric blacktext">.</li>
 
-				<li class="black blacktext"> hehe! you found me!</li>
-				<li class="plum"> Willow Weiner (she/her or they/them)</li>
-				<li class="coral blacktext">765.490.9939</li>
-				<li class="moonstone coraltext">willow@willowweiner.com</li>
-				<!--<li class="electric moonstonetext"><br></li>-->
-				<li class="white blacktext">&copy 2019</li>
-				<li class="black blacktext"> hehe! you found me!</li>
+				<?php include('footer.php'); ?>
 
-
+				<li class="black blacktext"> hehe! you found me!</li>
 				<li class="electric blacktext" style="width: ">  . </li>
 				<li class="coral blacktext"> ..</li>
 				<li class="white blacktext">... </li>
@@ -50,15 +38,9 @@
 
 				<li class="electric blacktext">.</li>
 
-				<li class="black blacktext"> hehe! you found me!</li>
-				<li class="plum"> Willow Weiner (she/her or they/them)</li>
-				<li class="coral blacktext">765.490.9939</li>
-				<li class="moonstone coraltext">willow@willowweiner.com</li>
-				<!--<li class="electric moonstonetext"><br></li>-->
-				<li class="white blacktext">&copy 2019</li>
-				<li class="black blacktext"> hehe! you found me!</li>
+				<?php include('footer.php'); ?>
 
-
+				<li class="black blacktext"> hehe! you found me!</li>
 				<li class="electric blacktext" style="width: ">  . </li>
 				<li class="coral blacktext"> ..</li>
 				<li class="white blacktext">... </li>
@@ -67,15 +49,9 @@
 
 				<li class="electric blacktext">.</li>
 
-				<li class="black blacktext"> hehe! you found me!</li>
-				<li class="plum"> Willow Weiner (she/her or they/them)</li>
-				<li class="coral blacktext">765.490.9939</li>
-				<li class="moonstone coraltext">willow@willowweiner.com</li>
-				<!--<li class="electric moonstonetext"><br></li>-->
-				<li class="white blacktext">&copy 2019</li>
-				<li class="black blacktext"> hehe! you found me!</li>
+				<?php include('footer.php'); ?>
 
-
+				<li class="black blacktext"> hehe! you found me!</li>
 				<li class="electric blacktext" style="width: ">  . </li>
 				<li class="coral blacktext"> ..</li>
 				<li class="white blacktext">... </li>
@@ -84,15 +60,9 @@
 
 				<li class="electric blacktext">.</li>
 
-				<li class="black blacktext"> hehe! you found me!</li>
-				<li class="plum"> Willow Weiner (she/her or they/them)</li>
-				<li class="coral blacktext">765.490.9939</li>
-				<li class="moonstone coraltext">willow@willowweiner.com</li>
-				<!--<li class="electric moonstonetext"><br></li>-->
-				<li class="white blacktext">&copy 2019</li>
-				<li class="black blacktext"> hehe! you found me!</li>
+				<?php include('footer.php'); ?>
 
-
+				<li class="black blacktext"> hehe! you found me!</li>
 				<li class="electric blacktext" style="width: ">  . </li>
 				<li class="coral blacktext"> ..</li>
 				<li class="white blacktext">... </li>
@@ -101,15 +71,9 @@
 
 				<li class="electric blacktext">.</li>
 
-				<li class="black blacktext"> hehe! you found me!</li>
-				<li class="plum"> Willow Weiner (she/her or they/them)</li>
-				<li class="coral blacktext">765.490.9939</li>
-				<li class="moonstone coraltext">willow@willowweiner.com</li>
-				<!--<li class="electric moonstonetext"><br></li>-->
-				<li class="white blacktext">&copy 2019</li>
-				<li class="black blacktext"> hehe! you found me!</li>
+				<?php include('footer.php'); ?>
 
-
+				<li class="black blacktext"> hehe! you found me!</li>
 				<li class="electric blacktext" style="width: ">  . </li>
 				<li class="coral blacktext"> ..</li>
 				<li class="white blacktext">... </li>
