@@ -108,7 +108,7 @@
                 <dir class="container item-1-1"  id="microtonal_modulation">
                     <h2 class="item-1-1">
                     	Microtonal Modulation, 
-                    	<span class="date">2020.</span>
+                    	<span class="date">2020-21.</span>
                     </h2>
                     <dir class = "container item-1-2 list-item">
                     	<p>
@@ -119,13 +119,15 @@
 
                     	</p>
                     	<p>
-                    		This Max patch/MaxForLive MIDI effect allows for real-time transposition and modulation in any pitchset.
+                    		This <em>MIDI effect plugin</em> allows for real-time transposition and modulation in any pitchset.
 
-                    		It provides support for Scala (.scl) and Max coll (.txt) tuning files, and is compatible with any synth that supports MIDI MPE.
+                    		It provides support for .scl and .kbm files, and is compatible with any synth that supports MIDI MPE.
+
+                            Prototyped in <em>Max/MSP</em> and developed in <em>C++</em> using <em>JUCE</em>.
 
                     	</p>
                     	<p>
-                    		After some minor tweaks to the UI, I plan on making this patch available for free download.
+                    		After some changes to the interface, I plan on making this plugin available for free download. Find <a href="https://github.com/will0wisp/microtonal-modulation-juce">this project on Github</a>.
                     	</p>
                     	<p>
                     		Listen to the examples to hear some sounds I've made with it.
